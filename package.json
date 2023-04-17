@@ -28,6 +28,8 @@
     "morgan": "^1.10.0",
     "nodemon": "^2.0.20",
     "react-icons": "^4.7.1",
+    "remixicon": "^3.1.1",
+    "remixicon-react": "^1.0.0",
     "slugify": "^1.6.5"
   }
 }
