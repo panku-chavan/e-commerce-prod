@@ -177,7 +177,11 @@ const CartPage = () => {
                       )}
                     </div>
                   )}
-                  <div className="shadow mt-3 mb-2 p-2 rounded">
+                  <div
+                    className={
+                      auth?.token ? "shadow mt-3 mb-2 p-2 rounded" : null
+                    }
+                  >
                     {!clientToken || !auth?.token || !cart?.length ? (
                       ""
                     ) : (
