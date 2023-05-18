@@ -142,7 +142,7 @@ const HomePage = () => {
           </div>
           <div className="d-flex flex-column">
             <button
-              className="btn btn-danger"
+              className="btn btn-danger rounded"
               onClick={() => window.location.reload()}
             >
               RESET FILTERS
