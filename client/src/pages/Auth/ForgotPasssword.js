@@ -44,7 +44,7 @@ const ForgotPasssword = () => {
               type="email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
-              className="form-control"
+              className="form-control rounded"
               id="exampleInputEmail1"
               placeholder="Enter Your Email "
               required
@@ -55,7 +55,7 @@ const ForgotPasssword = () => {
               type="text"
               value={answer}
               onChange={(e) => setAnswer(e.target.value)}
-              className="form-control"
+              className="form-control rounded"
               id="exampleInputEmail1"
               placeholder="Enter Your favorite Sport Name "
               required
@@ -66,14 +66,14 @@ const ForgotPasssword = () => {
               type="password"
               value={newPassword}
               onChange={(e) => setNewPassword(e.target.value)}
-              className="form-control"
+              className="form-control rounded"
               id="exampleInputPassword1"
               placeholder="Enter Your Password"
               required
             />
           </div>
 
-          <button type="submit" className="btn btn-primary">
+          <button type="submit" className="btn btn-primary rounded">
             Reset
           </button>
           <div>
