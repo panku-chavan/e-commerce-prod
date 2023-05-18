@@ -35,7 +35,6 @@ const CreateProduct = () => {
     getAllCategory();
   }, []);
 
-  //create product function
   const handleCreate = async (e) => {
     e.preventDefault();
     try {
