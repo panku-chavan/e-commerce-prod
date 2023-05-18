@@ -8,6 +8,7 @@ import {
   FaLinkedinIn,
   FaGithubSquare,
 } from "react-icons/fa";
+
 const Footer = () => {
   return (
     <div className="" style={{ minHeight: "" }}>
