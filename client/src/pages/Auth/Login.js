@@ -50,7 +50,7 @@ const Login = () => {
               autoFocus
               value={email}
               onChange={(e) => setEmail(e.target.value)}
-              className="form-control"
+              className="form-control rounded"
               id="exampleInputEmail1"
               placeholder="Enter Your Email "
               required
@@ -61,14 +61,14 @@ const Login = () => {
               type="password"
               value={password}
               onChange={(e) => setPassword(e.target.value)}
-              className="form-control"
+              className="form-control rounded"
               id="exampleInputPassword1"
               placeholder="Enter Your Password"
               required
             />
           </div>
 
-          <button type="submit" className="btn btn-primary">
+          <button type="submit" className="btn btn-primary rounded">
             Login
           </button>
           <div>
