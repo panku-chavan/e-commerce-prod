@@ -72,7 +72,6 @@ const ForgotPasssword = () => {
               required
             />
           </div>
-
           <button type="submit" className="btn btn-primary rounded">
             Reset
           </button>
