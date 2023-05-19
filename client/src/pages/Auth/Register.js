@@ -98,6 +98,7 @@ const Register = () => {
               required
             />
           </div>
+
           <div className="mb-3">
             <input
               type="text"
